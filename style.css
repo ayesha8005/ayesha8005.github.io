@@ -50,6 +50,7 @@ body{
 #bars:hover{
     background-color: rgb(255, 255, 255);
 }
+
 .menu img{
     width: 800px;
     height: 500px;
@@ -59,7 +60,6 @@ body{
 }
 
 nav {
-    background-color: #33333383;
     position: fixed;
     padding-top: -40%;
     width: 100%;
@@ -67,7 +67,8 @@ nav {
 }
 
 li{
-    float: left;
+    float: none;
+    display: inline;
 }
   
 li a {
@@ -80,5 +81,5 @@ li a {
   
 li:hover {
     color: #8E94F2;
-    border-bottom: 8px solid #3AB795;
+    
 }
