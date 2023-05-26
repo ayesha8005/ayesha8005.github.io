@@ -61,9 +61,9 @@ body{
     justify-content: space-between;
 }
 
-menu img{
-    width: 600px;
-    height: 800px;
+.menu img{
+    width: 800px;
+    height: 500px;
     display: flex;
     justify-content: center;
     padding: 25px;
@@ -73,4 +73,8 @@ menu img{
     display: grid;
     text-align: right;
     padding-right: 2rem;
+}
+
+.navibar a{
+    font-size: 2rem;
 }
