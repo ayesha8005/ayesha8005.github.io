@@ -83,8 +83,22 @@ body{
 }
   
   
-a:hover {
+.navbar a:hover {
     color: #8E94F2;
     border-bottom: 8px solid #307238;
     
+}
+
+.text a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    border: 1px solid white;
+    padding: 9px 20px;
+    background: white;
+}
+.text{
+    margin-right: 30%;
+    margin-left: 20%;
+    word-spacing: 0.1rem;
 }
