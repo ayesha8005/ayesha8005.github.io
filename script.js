@@ -1,6 +1,11 @@
 //Notifications
-
-
-function btn1() {
-    document.getElementsByClass(".notifications").style.clipPath = "circle(144% at 100% 0%)";
+function showDetails() {
+    var details = document.getElementById("details");
+    
+    if (details.classList.contains("hidden")) {
+      details.classList.remove("hidden");
+    } else {
+      details.classList.add("hidden");
+    }
 }
+  

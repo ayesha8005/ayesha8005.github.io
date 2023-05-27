@@ -16,8 +16,25 @@
             Gamer<span>Verse</span>
         </div>
         <!--Navigation icons-->
+        <div class="container">
+            <div class="icon" onclick="showDetails()"><i class="fa-solid fa-square-xmark"></i></div>
+            <div id="details" class="hidden">
+                <!-- Details to be shown -->
+                <div class="notifications">
+                    <div class="notifbox">
+                        <i class="fa-solid fa-square-check" style="color: blue;"></i>
+                        <p>You have downloaded the game successfully!</p>
+                    </div>
+                    <div class="notifbox">
+                        <i class="fa-solid fa-square-xmark" style="color: blue;"></i>
+                        <p>Could not download.</p>
+                    </div> 
+                  
+                </div>  
+           </div>
+        </div>
+    
         <div class="navicons">
-            <button onclick="btn1()" class="btn"><i class="fa-solid fa-bell fa-2x fa-shake" id="bell" style="color: #7cd3cd;"></i></button>
             <i class="fa-solid fa-bars fa-2x" id="bars" style="color: #7cd3cd;"></i>
         </div>
         <div class="navbar">
@@ -27,16 +44,6 @@
             <a href="#contact">Contact</a>
         </div>
     </header>
-    <!--Notifications-->
-    <div class="notifications">
-        <div class="notifbox">
-            <i class="fa-solid fa-square-check" style="color: blue;"></i>
-            <p>You have downloaded the game successfully!</p>
-        </div>
-        <div class="notifbox">
-            <i class="fa-solid fa-square-xmark" style="color: blue;"></i>
-            <p>Could not download.</p>
-        </div>
     </div>
     <!--Menu-->
     <div class="menu">
