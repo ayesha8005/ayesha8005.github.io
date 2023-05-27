@@ -164,3 +164,34 @@ p{
 .download a:hover{
     font-size: 22px;
 }
+
+.notifications{
+    position: absolute;
+    top: 110%;
+    right: 5rem;
+    background: #515251;
+    width: 300px;
+    height: 350px;
+    border-radius: 0.5rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.notifbox{
+    display: flex;
+    align-items: baseline;
+    column-gap: 1rem;
+    border-radius: 0.5rem;
+    background: white;
+    padding: 10px;
+ 
+}
+
+.btn{
+    background: black;
+    color: black;
+    border: black;
+}
