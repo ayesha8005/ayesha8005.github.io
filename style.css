@@ -123,7 +123,7 @@ iframe{
     margin-left: 70%;
     margin-right: 8%;
     margin-bottom: 10%;
-    margin-top: -66%;
+    margin-top: -45%;
 }
 
 h5{
@@ -141,4 +141,21 @@ p{
     letter-spacing: 0px;
     word-spacing: 0px;
     line-height: 22px;
+}
+
+.download{
+    margin-left: 5%;
+    margin-right: -30%;
+    margin-bottom: 10%;
+    margin-top: -28%;
+
+}
+
+.download a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 16px;
+    border-radius: 20px;
+    font-size: 21px;
 }
