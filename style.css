@@ -157,5 +157,10 @@ p{
     border: 2px solid white;
     padding: 16px;
     border-radius: 20px;
-    font-size: 21px;
+    font-size: 17px;
+
+}
+
+.download a:hover{
+    font-size: 22px;
 }
