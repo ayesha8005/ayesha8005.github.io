@@ -50,3 +50,20 @@ body{
     background-image: url(https://media.giphy.com/media/QACcCqnYqlQdmfvYxH/giphy.gif);
     background-size: cover;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 210px 0;
+}
+  
+.fter {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+footer p {
+    margin: 0;
+}
+  
