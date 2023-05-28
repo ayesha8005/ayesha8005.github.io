@@ -12,6 +12,8 @@ header{
     text-transform: uppercase;
     font-weight: 700;
     position: fixed;
+    margin-top: -2%;
+    
 }
 
 .title span{
@@ -143,13 +145,13 @@ iframe{
     place-items: center;
     border-radius: 5px;
 }
-.container{
+.containerz{
     color: white;
     margin-left: 70%;
     margin-right: 8%;
     margin-bottom: 10%;
-    margin-top: -69%;
-    position: fixed;
+    margin-top: -51%;
+    position: absolute;
 }
 
 h5{
@@ -180,6 +182,7 @@ p{
 .download a{
     text-decoration: none;
     color: white;
+    background: dodgerblue;
     border: 2px solid white;
     padding: 16px;
     border-radius: 20px;

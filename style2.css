@@ -1,0 +1,52 @@
+.titlez{
+    font-size: 2rem;
+    color: #F8F4E3;
+    padding: 10px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: fixed;
+    margin-top: 1%;
+    
+}
+
+.titlez span{
+    color: #E5446D;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+  
+.row {
+    width: 50%;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 5%;
+  
+}
+  
+.row img {
+    width: 90%;
+    height: auto;
+
+}
+
+.platform{
+    color: white;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 10%;
+    margin-top: -28%;
+}
+
+h6{
+    font-size: 15px;
+}
+
+body{
+    background-image: url(https://media.giphy.com/media/QACcCqnYqlQdmfvYxH/giphy.gif);
+    background-size: cover;
+}
