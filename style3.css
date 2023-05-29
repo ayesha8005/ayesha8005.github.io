@@ -268,17 +268,48 @@ img{
     color: white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+.now {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    background: #FF5A5F;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 21px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: -11%;
+    width: 65px;
+    
+}
+
 .play a{
     text-decoration: none;
     color: white;
     font-size: 15px;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Kanit', sans-serif;
     background: #FF5A5F;
-    padding: 19px;
-
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 3px solid white;
+    border-radius: 21px;
+    margin-left: 40%;
+    margin-right: -60px;
+    margin-bottom: -100px;
+    width: 65px;
 }
+
+.now:hover{
+    filter: drop-shadow(2px 3px 7px red);
+}
+
 .play{
     padding-top: 0px;
     padding-bottom: -60px;
+}
+
+.play i{
+    padding: 8px;
+    margin-bottom: 30px;
 }
