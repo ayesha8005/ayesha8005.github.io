@@ -261,6 +261,7 @@ img{
     padding: 20px;
     text-align: center;
     border-radius: 30px;
+    margin-bottom: 10%;
     
 }
 
@@ -268,7 +269,7 @@ img{
     color: white;
 }
 
-.now{
+.play{
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -277,27 +278,32 @@ img{
     padding: 15px;
     border: 3px solid white;
     border-radius: 21px;
+    width: 80px;
+    height: 36px;
 
 }
 .play{
-    margin-left: 50%;
-    margin-right: 50%;
-    margin-top: -24%;
+    margin-left: 48%;
+    margin-right: 80%;
+    margin-top: -17%;
     margin-bottom: 20%;
+    
 }
-.play a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    font-family: 'Kanit', sans-serif;
-    background: #FF5A5F;
-    border: 3px solid white;
-    border-radius: 21px;
-    width: 100px;
+
+.now{
+    margin-bottom: 10%;
+    margin-top: -5%;
+    
 }
+
 
 .now:hover{
     filter: drop-shadow(2px 3px 7px red);
+}
+
+.play:hover{
+    filter: drop-shadow(2px 3px 7px red);
+
 }
 
 .play i{
