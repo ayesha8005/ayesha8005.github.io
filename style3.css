@@ -240,3 +240,25 @@ img{
     box-shadow: 8px #dddddd;
    
 }
+
+.more{
+    color: white;
+    font-size: 50px;
+    margin-left: 33px;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+}
+
+.cl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+  
+.column {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    
+}
