@@ -268,7 +268,7 @@ img{
     color: white;
 }
 
-.play{
+.now{
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -277,6 +277,7 @@ img{
     padding: 15px;
     border: 3px solid white;
     border-radius: 21px;
+    width: 100px;
 }
 .play{
     margin-left: 50%;
@@ -296,7 +297,7 @@ img{
     border-radius: 21px;
     margin-left: 40%;
     margin-right: -60px;
-    width: 65px;
+    width: 100px;
 }
 
 .now:hover{
