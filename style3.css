@@ -272,7 +272,10 @@ img{
 .play a{
     text-decoration: none;
     color: white;
-    font-size: 22px;
+    font-size: 15px;
+    font-family: 'Asap', sans-serif;
+    background: #FF5A5F;
+    padding: 19px;
 
 }
 .play{
