@@ -257,8 +257,25 @@ img{
 }
   
 .column {
-    background-color: #e0e0e0;
+    background-color: #1e0240;
     padding: 20px;
     text-align: center;
+    border-radius: 30px;
     
+}
+
+.game1{
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+.play a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+.play{
+    padding-top: 0px;
+    padding-bottom: -60px;
 }
