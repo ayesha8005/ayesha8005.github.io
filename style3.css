@@ -349,3 +349,24 @@ p{
     margin-left: 20%;
     margin-right: -60%;
 }
+
+
+.add {
+    display: inline-flex;
+    
+}
+  
+.add p {
+    margin-right: -45px;
+    margin-left: 345px;
+    background: white;
+    color: #FF0000;  
+    padding: 26px;
+    border-radius: 24px;
+    font-size: 18px;
+}
+
+.add p:hover{
+    background: #FF0000;
+    color: white;
+}
