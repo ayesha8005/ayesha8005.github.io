@@ -54,20 +54,20 @@
 
 .contact{
     min-height: 100vh;
-    background: black;
+    background: rgb(144, 142, 142);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contact form{
-    width: 670px;
-    height: 400px; 
+    width: 770px;
+    height: 500px; 
     display: flex;
     justify-content: center;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    box-shadow: 20px 20px 50px rgba(169, 165, 165, 0.808);
     border-radius: 15px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(107, 106, 106, 0.817);
     backdrop-filter: blur(10px);
     flex-wrap: wrap;
 }
@@ -90,6 +90,7 @@
     margin-bottom: 10px; 
     background: none;
     border-bottom: 2px solid #fff;
+    color: whitesmoke;
 }
 
 .contact form input::placeholder{
@@ -117,4 +118,35 @@
     font-size: 15px;
     padding: 10px;
     outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(245, 245, 220, 0.738);
+}
+
+.contact form #button{
+    border: none; 
+    background:#fff;
+    border-radius: 5px; 
+    margin-top: 10px; 
+    font-weight: 600; 
+    font-size: 20px; 
+    color: #333;
+    width: 100px;
+    padding: 0; 
+    margin-right: 500px; 
+    margin-bottom: 30px; 
+    transition: 0.35;
+}
+
+.contact form #button:hover{
+    opacity: 0.7;
 }
