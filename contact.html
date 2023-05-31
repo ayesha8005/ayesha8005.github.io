@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
+    <script src="https://kit.fontawesome.com/540b85b90b.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--Website heading-->
+    <header>
+        <div class="title">
+            Gamer<span>Verse</span>
+        </div>
+        
+        <div class="contain">
+            <div class="icon" onclick="showDetails()"><i class="fa-solid fa-bell fa-shake" id="bell" style="color: #7cd3cd;"></i></div>
+            <div id="details" class="hidden">
+                <!-- Details to be shown -->
+                <div class="notifications">
+                    <div class="notifbox">
+                        <i class="fa-solid fa-square-check" style="color: blue;"></i>
+                        <p>You have downloaded the game successfully!</p>
+                    </div>
+                    <div class="notifbox">
+                        <i class="fa-solid fa-square-xmark" style="color: blue;"></i>
+                        <p>Could not download.</p>
+                    </div> 
+                  
+                </div> 
+            </div>
+        </div>
     
+        <div class="navicons">
+            <i class="fa-solid fa-bars fa-2x" id="bars" style="color: #7cd3cd;"></i>
+        </div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="trending.html">Trending</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <div class="contact">
+        <form action="">
+            <h1>Contact us</h1>
+            <input type="text" id="firstname" placeholder="First Name" required>
+            <input type="text" id="lastname" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Mobile" required>
+            <h4>Type your message here..</h4>
+            <textarea required></textarea>
+            <input type="submit">
+            <input type="submit" value="Send" id="button">
+
+        </form>
+
+    </div>
 </body>
 </html>
