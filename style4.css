@@ -1,0 +1,31 @@
+.review{
+    color: white;
+    text-align: center;
+    font-size: 47px;
+    text-shadow: 10px 12px 8px #00916E;
+    background: rgba(5, 52, 35, 0.633);
+    padding: 1px;
+}
+
+.review:hover{
+    font-size: 50px;
+}
+
+.img-cont img{
+    text-align: center;
+    width: 900px;
+    height: 570px;
+    margin-right: 20%;
+    margin-left: 17%;
+    padding: 10px;
+    
+    
+
+}
+
+.textimg{
+    margin-top: 10px;
+    color: white;
+    padding: 40px;
+
+}
