@@ -1,4 +1,4 @@
-//Notifications
+//Notifications icon feature
 function showDetails() {
     var details = document.getElementById("details");
     
